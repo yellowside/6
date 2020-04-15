@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>冰豆秀场 - 美女主播在线视频唱歌跳舞，免费视频聊天交友</title>
+<meta name="keywords" content="视频直播、视频聊天、唱歌直播、在线直播、在线音乐、美女主播" />
+<meta name="description" content="冰豆秀场在线视频直播社区，美女主播视频唱歌，火爆在线音乐直播。百万网友同时在线视频聊天、唱歌、交友。赶快加入，免费与数万个美女主播在线聊天互动。" />
+<style type="text/css">*{margin: 0; padding: 0;} iframe{display: block;width: 100%; }html{overflow: hidden;}body{overflow: hidden;}</style>
+<script type="text/javascript" src='https://apps.bdimg.com/libs/jquery/1.9.1/jquery.min.js'></script>
+<script type="text/javascript">
+		var dynamicLoading = {
+		  css: function(path){
+		 if(!path || path.length === 0){
+		  throw new Error('argument "path" is required !');
+		 }
+		 var head = document.getElementsByTagName('head')[0];
+		    var link = document.createElement('link');
+		    link.href = path;
+		    link.rel = 'stylesheet';
+		    link.type = 'text/css';
+		    head.appendChild(link);
+		  },
+		  js: function(path){
+		 if(!path || path.length === 0){
+		  throw new Error('argument "path" is required !');
+		 }
+		 var head = document.getElementsByTagName('head')[0];
+		    var script = document.createElement('script');
+		    script.src = path;
+		    script.type = 'text/javascript';
+		    head.appendChild(script);
+		  }
+		}
+		function getCookie(name)
+		{
+		var arr,reg=new RegExp("(^| )"+name+"=([^;]*)(;|$)");
+		if(arr=document.cookie.match(reg))
+		return unescape(arr[2]);
+		else
+		return null;
+		}
+		function setCookie(name,value)
+		{
+		var Days = 30;
+		var exp = new Date();
+		exp.setTime(exp.getTime() + Days*24*60*60*1000);
+		document.cookie = name + "="+ escape (value) + ";expires=" + exp.toGMTString();
+		}
+		function change(type){
+			setCookie('allmobile',type);
+			window.location.reload();
+		}
+		
+		function initPage(){
+		  var type = getCookie('allmobile');
+		  if(type == undefined || type == null){
+		   //根据屏幕大小显示对应样式
+		    var sUserAgent = navigator.userAgent.toLowerCase();  
+			var bIsIpad = sUserAgent.match(/ipad/i) == "ipad";  
+			var bIsIphoneOs = sUserAgent.match(/iphone os/i) == "iphone os";  
+			var bIsMidp = sUserAgent.match(/midp/i) == "midp";  
+			var bIsUc7 = sUserAgent.match(/rv:1.2.3.4/i) == "rv:1.2.3.4";  
+			var bIsUc = sUserAgent.match(/ucweb/i) == "ucweb";  
+			var bIsAndroid = sUserAgent.match(/android/i) == "android";  
+			var bIsCE = sUserAgent.match(/windows ce/i) == "windows ce";  
+			var bIsWM = sUserAgent.match(/windows mobile/i) == "windows mobile";   
+			if (bIsIpad || bIsIphoneOs || bIsMidp || bIsUc7 || bIsUc || bIsAndroid || bIsCE || bIsWM) 			{  
+			}else{
+				window.location.href="index.html";
+			}
+		  }
+		  else if(type == 'desktop'){
+         $("#return_iphone").css("display","block !important");
+		    window.location.href="index.html";
+		  }else if(type == 'mobile'){
+		  }
+		}
+    initPage();
+	</script>
+</head>
+<body>
+<iframe id="iframe" src="https://m.v.6.cn/?src=ummeda30142" frameborder="0"></iframe>
+<div id="c"></div>
+<script type="text/javascript">
+		$(document).ready(function(){
+			function windowResize(){
+				var h = $(window).height();
+				$('#iframe').attr('height', h);
+			}
+			if(window.addEventListener) {
+				window.addEventListener("resize",windowResize,false);
+			} else if(window.attachEvent) {
+				window.attachEvent("onresize",windowResize,false);
+			}
+			windowResize();
+		});
+		</script>
+</body>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?5b0a53e474ee14eb201c0b09fe1d533a";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</html>
