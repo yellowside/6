@@ -30,7 +30,7 @@ a:active	{color: #0062C3;}
 #list #sbox,#content #sbox, #hotkey #sbox {float:left;}
 #logo {float:left;}
 #home #logo {float:none;margin-right:15px;}
-#home #logo img {max-width:70%;height:auto;}
+#home #logo img {max-width:70%;height:70px;}
 .top {padding:0 50px;text-align:right;}
 .top a {line-height:24px;font-size:16px;color:red;}
 
